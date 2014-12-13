@@ -1,0 +1,70 @@
+body {
+  background: radial-gradient(circle, rgba(28, 121, 114, 0.6), rgba(0, 255, 148, 0));
+}
+
+
+input
+{
+    font-weight:bolder;
+    font-size: medium;
+}
+
+span {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  font-size: .67em;
+}
+
+table {
+  background: rgb(39, 179, 39);
+  box-shadow: 7px 6px 3px green;
+  border: 5px solid rgb(61, 171, 61);
+  border-radius: 5%;
+  border-spacing: 10px 5px;
+  margin: 7% auto;
+}
+
+#screen {
+  border-radius: 3%;
+  box-shadow: inset 3px 2px 3px rgb(25, 124, 4);
+  background: white;
+  text-align: right;
+  width: 80%;
+  position: relative;
+  padding: 2%;
+}
+
+#screen:active {
+  border: 4px solid rgb(20, 151, 219);
+}
+
+td
+{
+    text-align: center;
+    border: 2px solid rgb(7, 108, 7);
+    padding: 2px 6px;
+}
+
+th
+{
+    height: 60px;
+}
+
+input.button {
+  width: 90px;
+  height: 37px;
+  border: none;
+  padding: 5px;
+  background: rgb(20, 151, 219);
+  box-shadow: 4px 4px 5px rgb(32, 88, 144);
+}
+
+input.button:active {
+ box-shadow: -1px -1px 3px rgb(32, 88, 144); 
+ color: #fff;
+}
+
+#c {
+  background: red;
+}
